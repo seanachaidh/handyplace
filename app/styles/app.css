@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "OpenDyslexic";
+    src: url("fonts/OpenDyslexic-Regular.otf");
+}
+
+
+body {
+    font-family: "OpenDyslexic";
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #42A4CD;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+
+ul li:hover {
+    background-color: #6491A4;
+}
